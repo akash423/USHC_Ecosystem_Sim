@@ -1,5 +1,6 @@
 import React from 'react'
 import { metricMeta } from '../data/gameData'
+import * as Icons from 'lucide'
 
 function getStatusTone(value) {
   if (value >= 70) return 'text-emerald-600'
@@ -9,7 +10,7 @@ function getStatusTone(value) {
 
 export default function MetricBar({ metricKey, value }) {
   const meta = metricMeta[metricKey]
-  const Icon = meta.icon
+  const Icon = Icons[meta.icon]
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-soft">
       <div className="mb-2 flex items-center justify-between gap-3">
