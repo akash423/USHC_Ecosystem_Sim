@@ -107,7 +107,7 @@ export const scenarios = [
     text: 'A life-changing specialty therapy launches with an extremely high price. Patients want access quickly, payers fear budget shock, and the manufacturer argues the price reflects scientific risk and future innovation needs.',
     concept: 'Innovation is essential, but pricing and reimbursement design shape whether value reaches patients sustainably.',
     facilitator: {
-      prompts: ['How do you protect innovation without treating affordability as somebody else's problem?', 'What evidence would payers and producers need to trust a value-based contract?', 'Which option best balances short-term access and long-term system stability?'],
+      prompts: ['How do you protect innovation without treating affordability as somebody else\'s problem?', 'What evidence would payers and producers need to trust a value-based contract?', 'Which option best balances short-term access and long-term system stability?'],
       watchFors: ['Affordability', 'Access & Coverage', 'Producer sentiment'],
       debrief: 'A strong discussion here surfaces how reimbursement architecture becomes a strategic lever, not just a finance issue.',
     },
@@ -124,7 +124,7 @@ export const scenarios = [
     text: 'A major technology company offers hospitals a free population-health analytics platform in exchange for broad data rights. Leaders see a leap in digital capability, but civil society groups warn about privacy, governance, and platform dependence.',
     concept: 'Technology can accelerate integration, but only if trust, governance, and culture evolve with it.',
     facilitator: {
-      prompts: ['When is data-sharing a coordination enabler versus a legitimacy risk?', 'What governance commitments would make a limited pilot acceptable?', 'How should a leader weigh future capability against today's trust?'],
+      prompts: ['When is data-sharing a coordination enabler versus a legitimacy risk?', 'What governance commitments would make a limited pilot acceptable?', 'How should a leader weigh future capability against today\'s trust?'],
       watchFors: ['Innovation & Tech', 'Public trust', 'Stakeholder Alignment'],
       debrief: 'This card is useful for exploring why digital strategy in healthcare is as much about culture and permission as it is about tools.',
     },
