@@ -17,18 +17,18 @@ export const average = (obj) => {
 }
 
 export const metricMeta = {
-  affordability: { label: 'Cost Containment', icon: DollarSign, color: 'bg-emerald-500', hint: 'Higher means stronger affordability and a healthier cost curve.' },
-  quality: { label: 'Care Quality', icon: HeartPulse, color: 'bg-sky-500', hint: 'Captures outcomes, safety, and delivery performance.' },
-  access: { label: 'Access & Coverage', icon: Users, color: 'bg-violet-500', hint: 'Reflects broad and equitable access to care.' },
-  innovation: { label: 'Innovation & Tech', icon: Cpu, color: 'bg-amber-500', hint: 'Shows digital capability, interoperability, and treatment innovation.' },
-  alignment: { label: 'Stakeholder Alignment', icon: Handshake, color: 'bg-rose-500', hint: 'Average stakeholder buy-in across the ecosystem.' },
+  affordability: { label: 'Cost Containment', icon: "DollarSign", color: 'bg-emerald-500', hint: 'Higher means stronger affordability and a healthier cost curve.' },
+  quality: { label: 'Care Quality', icon: "HeartPulse", color: 'bg-sky-500', hint: 'Captures outcomes, safety, and delivery performance.' },
+  access: { label: 'Access & Coverage', icon: "Users", color: 'bg-violet-500', hint: 'Reflects broad and equitable access to care.' },
+  innovation: { label: 'Innovation & Tech', icon: "Cpu", color: 'bg-amber-500', hint: 'Shows digital capability, interoperability, and treatment innovation.' },
+  alignment: { label: 'Stakeholder Alignment', icon: "Handshake", color: 'bg-rose-500', hint: 'Average stakeholder buy-in across the ecosystem.' },
 }
 
 export const stakeholderMeta = {
-  providers: { label: 'Providers', icon: Building2, tone: 'bg-blue-50 text-blue-700 border-blue-200' },
-  payers: { label: 'Payers', icon: ShieldCheck, tone: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
-  producers: { label: 'Producers', icon: Activity, tone: 'bg-amber-50 text-amber-700 border-amber-200' },
-  public: { label: 'Public Trust', icon: Users, tone: 'bg-rose-50 text-rose-700 border-rose-200' },
+  providers: { label: 'Providers', icon: "Building2", tone: 'bg-blue-50 text-blue-700 border-blue-200' },
+  payers: { label: 'Payers', icon: "ShieldCheck", tone: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
+  producers: { label: 'Producers', icon: "Activity", tone: 'bg-amber-50 text-amber-700 border-amber-200' },
+  public: { label: 'Public Trust', icon: "Users", tone: 'bg-rose-50 text-rose-700 border-rose-200' },
 }
 
 export const strategicActions = [
